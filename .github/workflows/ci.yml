@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Run Cypress Tests 🧪
+      - name: Run Cypress Tests 
         uses: cypress-io/github-action@v6
       - name: HTML Test Report
         uses: actions/upload-artifact@v4
@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Run Cypress Tests 🧪
+      - name: Run Cypress Tests 
         uses: cypress-io/github-action@v6
       - name: HTML Test Report
         uses: actions/upload-artifact@v4
